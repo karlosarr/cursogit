@@ -1,4 +1,7 @@
 # cursogit
 hola soy Mily
 
-# pelos
+<<<<<<< HEAD
+
+=======
+# nenaMily
