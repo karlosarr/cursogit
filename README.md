@@ -1,7 +1,4 @@
 # cursogit
 hola soy Mily
-
-<<<<<<< HEAD
-
-
+teamo
 # nenaMily
