@@ -18,3 +18,7 @@ steps:
 - script: |
     npm install
   displayName: 'npm install'
+
+- script: |
+    echo 'estoy en master'
+  condition: and(succeeded(), eq(variables['Build.SourceBranchName'], 'master') )
