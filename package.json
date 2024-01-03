@@ -14,6 +14,6 @@
     "pug": "^3.0.0"
   },
     "publishConfig": {
-    "registry": "https://npm.pkg.github.com/@karlosarr"
+    "registry": "https://npm.pkg.github.com/karlosarr"
   }
 }
