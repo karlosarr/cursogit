@@ -3,12 +3,9 @@
 
 name: Node.js Package
 
-# on:
-#   release:
-#     types: [created]
 on:
-  push:
-    branches: [ "main" ]
+  release:
+    types: [created]
 
 jobs:
   build:
