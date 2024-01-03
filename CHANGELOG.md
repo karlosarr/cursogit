@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.0](https://github.com/karlosarr/cursogit/compare/v1.0.1...v1.1.0) (2024-01-03)
+
+
+### Features
+
+* **dev:** change css ([0715f2d](https://github.com/karlosarr/cursogit/commit/0715f2db5c84abde87f13b84cd82a6daadc63cbb))
+
 ## [1.0.1](https://github.com/karlosarr/cursogit/compare/v1.0.0...v1.0.1) (2024-01-03)
 
 
