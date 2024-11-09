@@ -251,13 +251,19 @@ Project Link: [https://github.com/github_username/repo_name](https://github.com/
 ## Diagrams
 flowchart LR
 
-A[Hard] -->|Text| B(Round)
-B --> C{Decision}
-C -->|One| D[Result 1]
-C -->|Two| E[Result 2]
+```mermaid
+  journey
+    title My working day
+    section Go to work
+      Make tea: 5: Me
+      Go upstairs: 3: Me
+      Do work: 1: Me, Cat
+    section Go home
+      Go downstairs: 5: Me
+      Sit down: 3: Me
+```
 
-
-
+```mermaid
 graph LR;
   client([client])-. Ingress-managed <br> load balancer .->ingress[Ingress];
   ingress-->|routing rule /api/v1/users|service[Service];
@@ -278,3 +284,4 @@ graph LR;
   class ingress,service,pod1,pod2,service2,pod3,pod4 k8s;
   class client plain;
   class cluster cluster;
+```
